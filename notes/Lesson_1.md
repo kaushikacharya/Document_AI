@@ -151,3 +151,33 @@
   - agency
   - adaptability
   - ability to correct mistakes
+
+## Lab Assignment
+
+### Jupyter Notebook & Objectives
+
+- [Lab 1 Notebook](../code/Lab1.ipynb)
+- Objectives
+  - Parsing and extracting information from documents
+  - Building an agent equipped with OCR tool (Tesseract)
+  - Identifying failure modes of OCR
+
+### Issues faced & solution
+
+- Pre-requisite: install tesseract
+  - Error faced:
+    - *Error reading document: tesseract is not installed or it's not in your PATH. See README file for more information.*
+  - Solution: In Linux, install package as per the Linux distrubution.<sup>[1](#ref-tesseract_installation)</sup>
+    - Ubuntu
+      - ```sudo apt install tesseract-ocr```
+  - Case: Even after installing tesseract, problem persists.
+    - Add tesseract path in
+      - ```pytesseract.pytesseract.tesseract_cmd```
+    - Suggested in USAGE section of pytesseract github repository<sup>[2](#ref-pytesseract_installation)</sup>
+    - Similar solution suggested in Issue: 348<sup>[3](#ref-pytesseract_issue_348)</sup>
+
+## References
+
+<span id="ref-tesseract_installation">1.</span> [Tesseract installation documentation](https://tesseract-ocr.github.io/tessdoc/Installation.html)  
+<span id="ref-pytesseract_installation">2.</span> [Python Tesseract installation instruction](https://github.com/madmaze/pytesseract#installation)  
+<span id="ref-pytesseract_issue_348">3.</span> [Pytesseract github issue: 348](https://github.com/madmaze/pytesseract/issues/348#issuecomment-832435014)

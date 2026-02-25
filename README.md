@@ -22,6 +22,7 @@ This repository contains
 |1|[Document Processing Basics](./notes/Lesson_1.md)|<ul><li>Document processing: Parsing and Extracting</li><li>OCR</li><li>Beyond OCR with Agentic AI</li></ul>|
 |2|[Four Decades of OCR Evoulution](./notes/Lesson_2.md)|<ul><li>Traditional OCR model: Tesseract</li><li>Deep Learning OCR model: PaddleOCR</li><li>OCR Comparison: Approach & Best Fit use cases</li></ul>|
 |3|[Layout Detection and Reading Order](./notes/Lesson_3.md)|<ul><li>Importance of Layout detection</li><li>Importance of Reading order detection</li><li>Challenges in real-world documents</li><li>What are VLMs and why they may not be enough alone</li><li>Hybrid approach: Combining Layout detection with VLMs</li></ul>|
+|4|[A Single API for Agentic Document Understanding](./notes/Lesson_4.md)|<ul><li>Landing AI's ADE components & API</li><li>Use cases: a) Key-Value Pairs extraction  b) AI Assistant (RAG)</li><li>DocVQA Benchmark dataset</li></ul>|
 
 ## Assignments
 

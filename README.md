@@ -29,3 +29,4 @@ This repository contains
   |Lesson|      Assignment        |   Description   |
   |------|------------------------|-----------------|
   |  #1  |[Document Processing with OCR](./notes/Lesson_1.md#lab-assignment)|<ul><li>Parsing and extracting information from documents using Tesseract OCR</li><li>Building an agent equipped with the OCR tool</li><li>Identifying failure modes of OCR</li></ul>|
+  |  #2  |[Document Processing with PaddleOCR](./notes/Lesson_2.md#lab-assignment)|<ul><li>Text detection and text recognition using PaddleOCR</li><li>PaddleOCR vs Tesseract</li><li>Building an agent equipped with PaddleOCR tool</li></ul>|

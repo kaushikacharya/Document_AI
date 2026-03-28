@@ -76,6 +76,21 @@
 - Tesseract vs PaddleOCR
   ![Tesseract vs PaddleOCR](../images/2_2.png)
 
+## Lab Assignment
+
+### Jupyter Notebook & Objectives
+
+- [Lab 2 Notebook](../code/Lab2.ipynb)
+- Objectives
+  - Use PaddleOCR for text detection and text recognition
+  - Identify need for detecting regions and their labels, prior to text recognition in chart and multi-column layouts
+
+### Observations
+
+- LLM reasoning failure
+  - Unlike shown in the lecture, LLM failed to correct OCR error related to FLOPS (floating point operations).
+  - It couldn't understand that values are in scientific notation and the values should be large (represented in power format).
+
 ## References
 
 <span id="ref-doc_intelligence_evolution">1.</span> [Evolution of Document Intelligence](https://landing.ai/blog/ocr-to-agentic-document-extraction-a-look-into-the-evolution-of-document-intelligence)  
